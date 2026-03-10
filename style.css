@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+}
+
+header {
+  background-color: #66ccff;
+  min-height: 125px;
+  display: flex;
+  align-items: center;
+  
+  & img {
+    flex-grow: 0;
+    position: absolute;
+  }
+  
+  & ul {
+    display: flex;
+    justify-content: center;
+    flex-grow: 1;
+    list-style: none;
+    gap: 20px;
+  }
+}
+
+main {
+  background-color: #ccffff;
+  min-height: 500px;
+}
+
+footer {
+  background-color: #0000cc;
+  min-height: 350px;
+}
